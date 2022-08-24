@@ -1,7 +1,8 @@
 import './lib/setup'
-import { LogLevel, SapphireClient } from '@sapphire/framework'
+import { LogLevel } from '@sapphire/framework'
+import { BotClient } from './classes/BotClient'
 
-const client = new SapphireClient({
+export const client = new BotClient({
   defaultPrefix: '!',
   regexPrefix: /^hua[,! ]/i,
   caseInsensitiveCommands: true,

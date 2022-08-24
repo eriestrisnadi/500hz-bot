@@ -7,7 +7,5 @@ const GUILDS = envParseArray('GUILDS')
 export class GuildEvent extends Listener<typeof Events.GuildMemberUpdate> {
   public async run(member: GuildMember) {
     if (!GUILDS.includes(member.guild.id)) return
-
-    // console.log(member)
   }
 }

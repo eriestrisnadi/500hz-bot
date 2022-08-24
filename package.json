@@ -53,6 +53,7 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
+    "@discordjs/opus": "^0.8.0",
     "@sapphire/decorators": "^4.3.6",
     "@sapphire/discord-utilities": "^2.11.2",
     "@sapphire/discord.js-utilities": "^4.11.3",
@@ -67,8 +68,18 @@
     "@sapphire/utilities": "^3.6.2",
     "cheerio": "^1.0.0-rc.12",
     "colorette": "^2.0.19",
+    "discord-music-player": "^9.0.2",
     "discord.js": "^13.8.1",
     "dotenv-cra": "^3.0.2",
+    "ffmpeg-static": "^5.0.2",
+    "libsodium-wrappers": "^0.7.10",
+    "play-dl": "^1.9.5",
     "reflect-metadata": "^0.1.13"
+  },
+  "resolutions": {
+    "discord-api-types": "^0.30.0"
+  },
+  "overrides": {
+    "discord-api-types": "^0.30.0"
   }
 }
